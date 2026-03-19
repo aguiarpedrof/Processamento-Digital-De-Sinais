@@ -1,6 +1,8 @@
 %% Roteiro 1: Sequências Básicas e Operações com Sinais
 clear all; close all; clc;
 
+addpath('./funcoes');
+
 %% --- QUESTÃO 1 ---
 % x1: origem no 1 (4ª pos) 
 x1q1 = [3, 0, 2, 1, 5, 7, 0, 0, 1, 1, 10];
@@ -90,12 +92,3 @@ xq7 = [2, 3, -2]; nxq7 = 0:2;
 figure(7);
 stem(ny_conv, y_conv, 'filled'); title('Questão 7: Convolução'); grid on;
 
-%% Salvar Gráficos Automaticamente
-% Este código percorre as figuras de 1 a 7 e as salva como imagem
-for i = 1:7
-    if ishandle(i) % Verifica se a figura existe
-        nome_arquivo = ['Resultado_Questao_' num2str(i) '.png'];
-        saveas(figure(i), nome_arquivo);
-        fprintf('Figura %d salva como %s\n', i, nome_arquivo);
-    end
-end
