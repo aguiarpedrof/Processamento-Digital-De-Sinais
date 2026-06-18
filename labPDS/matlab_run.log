@@ -1,0 +1,40 @@
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+
+========================================================
+Tarefa Prática 1.1: Filtro Passa-Baixas FIR (Hamming)
+========================================================
+Janela Selecionada: Hamming (Atenuacao típica = 53 dB, atende >= 50 dB)
+Comprimento do filtro M = 67 (Ordem N = 66)
+Gráfico da Tarefa 1.1 salvo como tarefa1_1.png
+
+========================================================
+Tarefa Prática 1.2: Filtro Passa-Baixas FIR (Kaiser)
+========================================================
+Calculo da Janela de Kaiser:
+  delta_1 (passagem) = 0.014390
+  delta_2 (corte) = 0.003162
+  delta escolhido = 0.003162
+  Atenuacao de projeto A = 50.00 dB
+  Parâmetro beta = 4.5335
+  Comprimento calculado M = 58.51 -> Escolhido M_kaiser = 59 (Ordem N = 58)
+Gráfico da Tarefa 1.2 salvo como tarefa1_2.png
+
+========================================================
+Tarefa Prática 1.3: Projeto Avançado Multibanda
+========================================================
+Projeto com Janela Blackman:
+  Comprimento M = 75 (Ordem N = 74)
+Projeto com Janela de Kaiser:
+  beta = 5.6533
+  Comprimento M = 49 (Ordem N = 48)
+Gráfico da Tarefa 1.3 salvo como tarefa1_3.png
+
+========================================================
+PROCESSAMENTO FIR COMPLETO COM SUCESSO!
+========================================================

@@ -1,0 +1,34 @@
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+
+========================================================
+Carregando fugee.wav...
+========================================================
+Taxa de Amostragem Fs: 8000 Hz
+Numero total de amostras: 2392841
+Duracao: 299.11 segundos
+Espectro original salvo como audio_original.png
+
+========================================================
+Projetando Filtro FIR Passa-Altas Chebyshev (Cenario 1)
+========================================================
+Audio filtrado (Passa-Alta) salvo como fugee_passa_alta.wav
+========================================================
+Projetando Filtro FIR Passa-Faixa (Cenario 2)
+========================================================
+Audio filtrado (Passa-Faixa) salvo como fugee_passa_faixa.wav
+========================================================
+Aplicando Filtro de Mediana
+========================================================
+Audio filtrado (Mediana) salvo como fugee_mediana.wav
+
+========================================================
+Gerando comparacao dos espectros...
+========================================================
+Grafico de comparacao de espectros salvo como audio_comparacao_espectros.png
+PROCESSAMENTO DE AUDIO CONCLUIDO!
